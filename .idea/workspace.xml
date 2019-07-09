@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35734818-73a7-4a70-ab45-e25649c781ef" name="Default Changelist" comment="" />
+    <list default="true" id="35734818-73a7-4a70-ab45-e25649c781ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/Expressions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/Expressions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/Expressions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/Expressions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/ValuesVariablesTypes$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/ValuesVariablesTypes$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/basics/ValuesVariablesTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/basics/Expressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/basics/Expressions.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lectures/basics/Expressions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="406">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -43,6 +51,13 @@
         <option value="$PROJECT_DIR$/src/playground/JavaPlayground.java" />
         <option value="$PROJECT_DIR$/src/lectures/basics/ValuesVariablesTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/basics/Expressions.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -79,6 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunDashboard">
@@ -265,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/basics/Expressions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="406">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
         </state>
       </provider>
     </entry>

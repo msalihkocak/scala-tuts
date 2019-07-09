@@ -28,4 +28,15 @@ object Expressions extends App {
     if (z > 2) "hello" else "goodbye"
   }
   println(aCodeBlock)
+
+  val someValue = {
+    2 < 3
+  }
+  println(someValue)
+
+  val someOtherValue = {
+    if(someValue) 240 else 905
+    42
+  }
+  println(someOtherValue)
 }
