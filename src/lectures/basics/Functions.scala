@@ -36,8 +36,8 @@ object Functions extends App{
   def greetingPhrase(name: String, age: Int): String = "Hi, my name is " + name + " and I am " + age + " years old"
   println(greetingPhrase("Salih", 30))
 
-  def fibbonacci(n:Int) : Int = if (n <= 2) 1 else fibbonacci(n - 1) + fibbonacci(n - 2)
-  println(fibbonacci(12))
+  def fibonacci(n:Int) : Int = if (n <= 2) 1 else fibonacci(n - 1) + fibonacci(n - 2)
+  println(fibonacci(12))
 
   def isPrime(mayBePrime:Int): Boolean = {
     val primesUpToHundred = Array(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
