@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" line="3" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="35734818-73a7-4a70-ab45-e25649c781ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/basics/StringOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/basics/DefaultArgs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/basics/DefaultArgs.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lectures/basics/StringOps.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/oop/OOBasics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+            <state relative-caret-position="304">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -52,12 +53,13 @@
         <option value="$PROJECT_DIR$/src/lectures/basics/ByNameVSByValue.scala" />
         <option value="$PROJECT_DIR$/src/lectures/basics/DefaultArgs.scala" />
         <option value="$PROJECT_DIR$/src/lectures/basics/StringOps.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="2030" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2288" />
+    <option name="y" value="306" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -69,8 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,12 +87,20 @@
               <item name="scala-tuts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-tuts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala-tuts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-tuts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringOps">
+  <component name="RunManager" selected="Application.OOBasics">
     <configuration name="ByNameVSByValue" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.ByNameVSByValue" />
       <module name="scala-tuts" />
@@ -138,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.Functions" />
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.OOBasics" />
       <module name="scala-tuts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.ByNameVSByValue" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -201,21 +209,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-28" width="1920" height="1108" extended-state="6" />
+    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.24919957" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24919957" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3294979" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39444444" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39435145" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -274,20 +282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/playground/JavaPlayground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/basics/ValuesVariablesTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/basics/ValuesVariablesTypes.scala" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Math.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -303,13 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/playground/ScalaPlayground.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -350,8 +338,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/basics/StringOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/playground/ScalaPlayground.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/playground/JavaPlayground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/oop/OOBasics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
