@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35734818-73a7-4a70-ab45-e25649c781ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/oop/MethodNotations.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Novel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Novel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +23,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/oop/MethodNotations.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/oop/OOBasics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="439">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/lectures/basics/DefaultArgs.scala" />
         <option value="$PROJECT_DIR$/src/lectures/basics/StringOps.scala" />
         <option value="$PROJECT_DIR$/src/lectures/oop/OOBasics.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/oop/MethodNotations.scala" />
       </list>
     </option>
   </component>
@@ -93,6 +105,13 @@
               <item name="scala-tuts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-tuts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala-tuts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-tuts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -119,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OOBasics">
+  <component name="RunManager" selected="Application.MethodNotations">
     <configuration name="ByNameVSByValue" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.ByNameVSByValue" />
       <module name="scala-tuts" />
@@ -146,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.oop.OOBasics" />
+    <configuration name="MethodNotations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.MethodNotations" />
       <module name="scala-tuts" />
       <extension name="coverage">
         <pattern>
@@ -159,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.Recursion" />
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.OOBasics" />
       <module name="scala-tuts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodNotations" />
         <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.ByNameVSByValue" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -359,8 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/oop/OOBasics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="439">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/oop/MethodNotations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
         </state>
       </provider>
     </entry>

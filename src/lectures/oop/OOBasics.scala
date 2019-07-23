@@ -74,7 +74,7 @@ class Writer(firstName:String, surname: String, val birthYear:Int){
   def fullName = s"$firstName $surname"
 }
 
-class Novel(val name:String, var yearOfRelease: Int, val author:Writer){
+class Novel(val name:String, val yearOfRelease: Int, val author:Writer){
   def authorAge() = yearOfRelease - author.birthYear
   def isWrittenBy(anotherWriter:Writer) = author == anotherWriter
   def copy(newReleaseYear:Int) = new Novel(name, newReleaseYear, author)
