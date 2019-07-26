@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35734818-73a7-4a70-ab45-e25649c781ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/oop/Objects.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/oop/InheritanceAndTraits.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/playground/JavaPlayground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/playground/JavaPlayground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playground/JavaPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/JavaPlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects$Person$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects$Person$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala-tuts/lectures/oop/Objects.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/oop/Objects.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/oop/InheritanceAndTraits.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="42" column="88" lean-forward="true" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -98,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/lectures/oop/MethodNotations.scala" />
         <option value="$PROJECT_DIR$/src/playground/JavaPlayground.java" />
         <option value="$PROJECT_DIR$/src/lectures/oop/Objects.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/oop/InheritanceAndTrairs.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/oop/InheritanceAndTraits.scala" />
       </list>
     </option>
   </component>
@@ -170,7 +183,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Objects">
+  <component name="RunManager" selected="Application.InheritanceAndTraits">
+    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.InheritanceAndTraits" />
+      <module name="scala-tuts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="playground.JavaPlayground" />
       <module name="scala-tuts" />
@@ -223,26 +249,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.StringOps" />
-      <module name="scala-tuts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceAndTraits" />
         <item itemvalue="Application.Objects" />
         <item itemvalue="Application.JavaPlayground" />
         <item itemvalue="Application.MethodNotations" />
         <item itemvalue="Application.OOBasics" />
-        <item itemvalue="Application.StringOps" />
       </list>
     </recent_temporary>
   </component>
@@ -428,8 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/oop/Objects.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/oop/InheritanceAndTraits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="42" column="88" lean-forward="true" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
         </state>
       </provider>
     </entry>
