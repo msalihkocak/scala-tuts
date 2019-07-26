@@ -3,12 +3,17 @@ package lectures.oop
 import scala.language.postfixOps
 
 object MethodNotations extends App {
-  class Person(val name:String, favoriteMovie: String){
+  class Person(val name:String, favoriteMovie: String, val age:Int = 25){
     def likes(movie:String): Boolean = movie == favoriteMovie
-    def +(person: Person): String = s"${this.name} is hanging out with ${person.name}"
+    def +(person: Person): String = s"$name is hanging out with ${person.name}"
+    def +(string: String): Person = new Person(s"$name ($string)", favoriteMovie)
+    def unary_+ = new Person(name, favoriteMovie, age + 1)
     def unary_! : String = s"$name, what the heck?!"
+    def learns(string: String) = s"$name learns $string"
+    def learnsScala = this learns "Scala"
     def isAlive: Boolean = true
     def apply(): String = s"Hi my name is $name and I like $favoriteMovie"
+    def apply(int: Int) = s"$name watched $favoriteMovie $int times"
   }
 
   val mary = new Person("Mary", "Inception")
@@ -42,4 +47,15 @@ object MethodNotations extends App {
   // apply
   println(mary.apply())
   println(mary()) // equivalent
+
+  println((mary + "the Rockstar")())
+
+  val threeYearsOlderMary = +(+(+mary))
+  println("Three years passed and mary is " + threeYearsOlderMary.age + " years old")
+
+  println(mary.learns("Kafka"))
+  println(mary learns "Kafka")
+  println(mary learnsScala)
+
+  println(mary(2))
 }
